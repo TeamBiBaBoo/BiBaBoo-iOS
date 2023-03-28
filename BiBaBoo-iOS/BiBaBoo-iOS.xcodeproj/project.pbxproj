@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C37605A629D2BBCE0051BA18 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C37605A529D2BBCE0051BA18 /* SnapKit */; };
+		C37605A929D2BC1E0051BA18 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = C37605A829D2BC1E0051BA18 /* Moya */; };
+		C37605AC29D2BC470051BA18 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = C37605AB29D2BC470051BA18 /* Then */; };
+		C37605AF29D2BE250051BA18 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C37605AE29D2BE250051BA18 /* Lottie */; };
+		C37605B629D2BF650051BA18 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605B529D2BF650051BA18 /* Const.swift */; };
+		C37605B829D2BF700051BA18 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605B729D2BF700051BA18 /* String.swift */; };
+		C37605BA29D2BF760051BA18 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605B929D2BF760051BA18 /* Image.swift */; };
+		C37605BC29D2BF7A0051BA18 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605BB29D2BF7A0051BA18 /* Color.swift */; };
+		C37605BE29D2BF7F0051BA18 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605BD29D2BF7F0051BA18 /* Font.swift */; };
+		C37605C529D2C4C70051BA18 /* NanumSquareR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37605C329D2C4C60051BA18 /* NanumSquareR.ttf */; };
+		C37605C629D2C4C70051BA18 /* NanumSquareB.otf in Resources */ = {isa = PBXBuildFile; fileRef = C37605C429D2C4C70051BA18 /* NanumSquareB.otf */; };
+		C37605C829D2C6E00051BA18 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C37605C729D2C6E00051BA18 /* Pretendard-Regular.otf */; };
+		C37605CA29D2CBF30051BA18 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37605C929D2CBF30051BA18 /* Colors.xcassets */; };
 		C3B5534B29CE8EE3002D3467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B5534A29CE8EE3002D3467 /* AppDelegate.swift */; };
 		C3B5534D29CE8EE3002D3467 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B5534C29CE8EE3002D3467 /* SceneDelegate.swift */; };
-		C3B5534F29CE8EE3002D3467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B5534E29CE8EE3002D3467 /* ViewController.swift */; };
 		C3B5535429CE8EE7002D3467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B5535329CE8EE7002D3467 /* Assets.xcassets */; };
 		C3B5535729CE8EE7002D3467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B5535529CE8EE7002D3467 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C37605B529D2BF650051BA18 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		C37605B729D2BF700051BA18 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		C37605B929D2BF760051BA18 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		C37605BB29D2BF7A0051BA18 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		C37605BD29D2BF7F0051BA18 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		C37605C329D2C4C60051BA18 /* NanumSquareR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareR.ttf; sourceTree = "<group>"; };
+		C37605C429D2C4C70051BA18 /* NanumSquareB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareB.otf; sourceTree = "<group>"; };
+		C37605C729D2C6E00051BA18 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		C37605C929D2CBF30051BA18 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		C3B5534729CE8EE3002D3467 /* BiBaBoo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BiBaBoo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B5534A29CE8EE3002D3467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3B5534C29CE8EE3002D3467 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3B5534E29CE8EE3002D3467 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3B5535329CE8EE7002D3467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3B5535629CE8EE7002D3467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3B5535829CE8EE7002D3467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -29,12 +49,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C37605A929D2BC1E0051BA18 /* Moya in Frameworks */,
+				C37605AC29D2BC470051BA18 /* Then in Frameworks */,
+				C37605A629D2BBCE0051BA18 /* SnapKit in Frameworks */,
+				C37605AF29D2BE250051BA18 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C37605B029D2BED00051BA18 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C37605C429D2C4C70051BA18 /* NanumSquareB.otf */,
+				C37605C329D2C4C60051BA18 /* NanumSquareR.ttf */,
+				C37605C729D2C6E00051BA18 /* Pretendard-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C37605B329D2BF3A0051BA18 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C37605B429D2BF510051BA18 /* Consts */,
+				C37605BF29D2BF900051BA18 /* Extensions */,
+				C37605C029D2BF9C0051BA18 /* Utils */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C37605B429D2BF510051BA18 /* Consts */ = {
+			isa = PBXGroup;
+			children = (
+				C37605B529D2BF650051BA18 /* Const.swift */,
+				C37605B729D2BF700051BA18 /* String.swift */,
+				C37605B929D2BF760051BA18 /* Image.swift */,
+				C37605BB29D2BF7A0051BA18 /* Color.swift */,
+				C37605BD29D2BF7F0051BA18 /* Font.swift */,
+			);
+			path = Consts;
+			sourceTree = "<group>";
+		};
+		C37605BF29D2BF900051BA18 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C37605C029D2BF9C0051BA18 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C37605C129D2BFD20051BA18 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C37605C229D2BFE50051BA18 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		C3B5533E29CE8EE3002D3467 = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +141,10 @@
 				C3B5535F29CE8F4E002D3467 /* Storyboard */,
 				C3B5535E29CE8F23002D3467 /* Application */,
 				C3B5536029CE8F64002D3467 /* Resource */,
+				C37605B329D2BF3A0051BA18 /* Common */,
 				C3B5536129CE8F95002D3467 /* Presentation */,
+				C37605C129D2BFD20051BA18 /* Network */,
+				C37605C229D2BFE50051BA18 /* Data */,
 			);
 			path = "BiBaBoo-iOS";
 			sourceTree = "<group>";
@@ -82,7 +169,9 @@
 		C3B5536029CE8F64002D3467 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				C37605B029D2BED00051BA18 /* Fonts */,
 				C3B5535329CE8EE7002D3467 /* Assets.xcassets */,
+				C37605C929D2CBF30051BA18 /* Colors.xcassets */,
 				C3B5535829CE8EE7002D3467 /* Info.plist */,
 			);
 			path = Resource;
@@ -91,7 +180,6 @@
 		C3B5536129CE8F95002D3467 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				C3B5534E29CE8EE3002D3467 /* ViewController.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -112,6 +200,12 @@
 			dependencies = (
 			);
 			name = "BiBaBoo-iOS";
+			packageProductDependencies = (
+				C37605A529D2BBCE0051BA18 /* SnapKit */,
+				C37605A829D2BC1E0051BA18 /* Moya */,
+				C37605AB29D2BC470051BA18 /* Then */,
+				C37605AE29D2BE250051BA18 /* Lottie */,
+			);
 			productName = "BiBaBoo-iOS";
 			productReference = C3B5534729CE8EE3002D3467 /* BiBaBoo-iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -140,6 +234,12 @@
 				Base,
 			);
 			mainGroup = C3B5533E29CE8EE3002D3467;
+			packageReferences = (
+				C37605A429D2BBCE0051BA18 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				C37605A729D2BC1D0051BA18 /* XCRemoteSwiftPackageReference "Moya" */,
+				C37605AA29D2BC470051BA18 /* XCRemoteSwiftPackageReference "Then" */,
+				C37605AD29D2BE250051BA18 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = C3B5534829CE8EE3002D3467 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -154,7 +254,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C37605C829D2C6E00051BA18 /* Pretendard-Regular.otf in Resources */,
 				C3B5535729CE8EE7002D3467 /* LaunchScreen.storyboard in Resources */,
+				C37605C629D2C4C70051BA18 /* NanumSquareB.otf in Resources */,
+				C37605CA29D2CBF30051BA18 /* Colors.xcassets in Resources */,
+				C37605C529D2C4C70051BA18 /* NanumSquareR.ttf in Resources */,
 				C3B5535429CE8EE7002D3467 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,7 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3B5534F29CE8EE3002D3467 /* ViewController.swift in Sources */,
+				C37605BA29D2BF760051BA18 /* Image.swift in Sources */,
+				C37605BC29D2BF7A0051BA18 /* Color.swift in Sources */,
+				C37605B629D2BF650051BA18 /* Const.swift in Sources */,
+				C37605BE29D2BF7F0051BA18 /* Font.swift in Sources */,
+				C37605B829D2BF700051BA18 /* String.swift in Sources */,
 				C3B5534B29CE8EE3002D3467 /* AppDelegate.swift in Sources */,
 				C3B5534D29CE8EE3002D3467 /* SceneDelegate.swift in Sources */,
 			);
@@ -378,6 +486,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C37605A429D2BBCE0051BA18 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		C37605A729D2BC1D0051BA18 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		C37605AA29D2BC470051BA18 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		C37605AD29D2BE250051BA18 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C37605A529D2BBCE0051BA18 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C37605A429D2BBCE0051BA18 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		C37605A829D2BC1E0051BA18 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C37605A729D2BC1D0051BA18 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		C37605AB29D2BC470051BA18 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C37605AA29D2BC470051BA18 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		C37605AE29D2BE250051BA18 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C37605AD29D2BE250051BA18 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C3B5533F29CE8EE3002D3467 /* Project object */;
 }
