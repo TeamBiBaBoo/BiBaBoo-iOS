@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C309F87E29DAB285007BAF98 /* adjust+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C309F87D29DAB285007BAF98 /* adjust+.swift */; };
 		C37605A629D2BBCE0051BA18 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C37605A529D2BBCE0051BA18 /* SnapKit */; };
 		C37605A929D2BC1E0051BA18 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = C37605A829D2BC1E0051BA18 /* Moya */; };
 		C37605AC29D2BC470051BA18 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = C37605AB29D2BC470051BA18 /* Then */; };
@@ -20,6 +21,11 @@
 		C37605C629D2C4C70051BA18 /* NanumSquareB.otf in Resources */ = {isa = PBXBuildFile; fileRef = C37605C429D2C4C70051BA18 /* NanumSquareB.otf */; };
 		C37605C829D2C6E00051BA18 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C37605C729D2C6E00051BA18 /* Pretendard-Regular.otf */; };
 		C37605CA29D2CBF30051BA18 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37605C929D2CBF30051BA18 /* Colors.xcassets */; };
+		C37605CC29D543510051BA18 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605CB29D543510051BA18 /* UIViewController+.swift */; };
+		C37605CE29D543D20051BA18 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605CD29D543D20051BA18 /* UIView+.swift */; };
+		C37605D029D5442F0051BA18 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605CF29D5442F0051BA18 /* BaseNavigationController.swift */; };
+		C37605D329D544620051BA18 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605D229D544620051BA18 /* BaseViewController.swift */; };
+		C37605D529D544C90051BA18 /* GeneralResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605D429D544C90051BA18 /* GeneralResponse.swift */; };
 		C3B5534B29CE8EE3002D3467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B5534A29CE8EE3002D3467 /* AppDelegate.swift */; };
 		C3B5534D29CE8EE3002D3467 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B5534C29CE8EE3002D3467 /* SceneDelegate.swift */; };
 		C3B5535429CE8EE7002D3467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B5535329CE8EE7002D3467 /* Assets.xcassets */; };
@@ -27,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C309F87D29DAB285007BAF98 /* adjust+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "adjust+.swift"; sourceTree = "<group>"; };
 		C37605B529D2BF650051BA18 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		C37605B729D2BF700051BA18 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		C37605B929D2BF760051BA18 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
@@ -36,6 +43,11 @@
 		C37605C429D2C4C70051BA18 /* NanumSquareB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareB.otf; sourceTree = "<group>"; };
 		C37605C729D2C6E00051BA18 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
 		C37605C929D2CBF30051BA18 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		C37605CB29D543510051BA18 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		C37605CD29D543D20051BA18 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		C37605CF29D5442F0051BA18 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		C37605D229D544620051BA18 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C37605D429D544C90051BA18 /* GeneralResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralResponse.swift; sourceTree = "<group>"; };
 		C3B5534729CE8EE3002D3467 /* BiBaBoo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BiBaBoo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B5534A29CE8EE3002D3467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3B5534C29CE8EE3002D3467 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +106,9 @@
 		C37605BF29D2BF900051BA18 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C37605CB29D543510051BA18 /* UIViewController+.swift */,
+				C37605CD29D543D20051BA18 /* UIView+.swift */,
+				C309F87D29DAB285007BAF98 /* adjust+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -108,6 +123,7 @@
 		C37605C129D2BFD20051BA18 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				C37605D429D544C90051BA18 /* GeneralResponse.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -117,6 +133,15 @@
 			children = (
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		C37605D129D544340051BA18 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C37605CF29D5442F0051BA18 /* BaseNavigationController.swift */,
+				C37605D229D544620051BA18 /* BaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		C3B5533E29CE8EE3002D3467 = {
@@ -180,6 +205,7 @@
 		C3B5536129CE8F95002D3467 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				C37605D129D544340051BA18 /* Base */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -271,11 +297,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C37605BA29D2BF760051BA18 /* Image.swift in Sources */,
+				C37605D529D544C90051BA18 /* GeneralResponse.swift in Sources */,
 				C37605BC29D2BF7A0051BA18 /* Color.swift in Sources */,
+				C309F87E29DAB285007BAF98 /* adjust+.swift in Sources */,
+				C37605D329D544620051BA18 /* BaseViewController.swift in Sources */,
+				C37605CC29D543510051BA18 /* UIViewController+.swift in Sources */,
 				C37605B629D2BF650051BA18 /* Const.swift in Sources */,
 				C37605BE29D2BF7F0051BA18 /* Font.swift in Sources */,
 				C37605B829D2BF700051BA18 /* String.swift in Sources */,
 				C3B5534B29CE8EE3002D3467 /* AppDelegate.swift in Sources */,
+				C37605CE29D543D20051BA18 /* UIView+.swift in Sources */,
+				C37605D029D5442F0051BA18 /* BaseNavigationController.swift in Sources */,
 				C3B5534D29CE8EE3002D3467 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
