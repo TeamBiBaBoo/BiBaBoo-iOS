@@ -14,5 +14,7 @@ extension Const {
         
         
         // MARK: image
+        static let sticker1 = UIImage(named: "sticker_1")
+        
     }
 }
