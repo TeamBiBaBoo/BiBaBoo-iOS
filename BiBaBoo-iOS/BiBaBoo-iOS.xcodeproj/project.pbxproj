@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C309F87E29DAB285007BAF98 /* adjust+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C309F87D29DAB285007BAF98 /* adjust+.swift */; };
+		C309F88329DD52C7007BAF98 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C309F88229DD52C7007BAF98 /* HomeViewController.swift */; };
+		C309F88529DD539D007BAF98 /* HomeTopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C309F88429DD539D007BAF98 /* HomeTopBarView.swift */; };
 		C37605A629D2BBCE0051BA18 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C37605A529D2BBCE0051BA18 /* SnapKit */; };
 		C37605A929D2BC1E0051BA18 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = C37605A829D2BC1E0051BA18 /* Moya */; };
 		C37605AC29D2BC470051BA18 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = C37605AB29D2BC470051BA18 /* Then */; };
@@ -34,6 +36,8 @@
 
 /* Begin PBXFileReference section */
 		C309F87D29DAB285007BAF98 /* adjust+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "adjust+.swift"; sourceTree = "<group>"; };
+		C309F88229DD52C7007BAF98 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C309F88429DD539D007BAF98 /* HomeTopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopBarView.swift; sourceTree = "<group>"; };
 		C37605B529D2BF650051BA18 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		C37605B729D2BF700051BA18 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		C37605B929D2BF760051BA18 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
@@ -71,6 +75,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C309F87F29DD52A0007BAF98 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C309F88029DD52B0007BAF98 /* View */,
+				C309F88129DD52BA007BAF98 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C309F88029DD52B0007BAF98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C309F88429DD539D007BAF98 /* HomeTopBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C309F88129DD52BA007BAF98 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C309F88229DD52C7007BAF98 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		C37605B029D2BED00051BA18 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				C37605D129D544340051BA18 /* Base */,
+				C309F87F29DD52A0007BAF98 /* Home */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -296,11 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C309F88529DD539D007BAF98 /* HomeTopBarView.swift in Sources */,
 				C37605BA29D2BF760051BA18 /* Image.swift in Sources */,
 				C37605D529D544C90051BA18 /* GeneralResponse.swift in Sources */,
 				C37605BC29D2BF7A0051BA18 /* Color.swift in Sources */,
 				C309F87E29DAB285007BAF98 /* adjust+.swift in Sources */,
 				C37605D329D544620051BA18 /* BaseViewController.swift in Sources */,
+				C309F88329DD52C7007BAF98 /* HomeViewController.swift in Sources */,
 				C37605CC29D543510051BA18 /* UIViewController+.swift in Sources */,
 				C37605B629D2BF650051BA18 /* Const.swift in Sources */,
 				C37605BE29D2BF7F0051BA18 /* Font.swift in Sources */,
