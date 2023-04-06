@@ -28,6 +28,8 @@
 		C37605D029D5442F0051BA18 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605CF29D5442F0051BA18 /* BaseNavigationController.swift */; };
 		C37605D329D544620051BA18 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605D229D544620051BA18 /* BaseViewController.swift */; };
 		C37605D529D544C90051BA18 /* GeneralResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605D429D544C90051BA18 /* GeneralResponse.swift */; };
+		C38E7B3729DE866400155E6A /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E7B3629DE866400155E6A /* CategoryView.swift */; };
+		C38E7B3A29DE874D00155E6A /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E7B3929DE874D00155E6A /* CategoryModel.swift */; };
 		C3B5534B29CE8EE3002D3467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B5534A29CE8EE3002D3467 /* AppDelegate.swift */; };
 		C3B5534D29CE8EE3002D3467 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B5534C29CE8EE3002D3467 /* SceneDelegate.swift */; };
 		C3B5535429CE8EE7002D3467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B5535329CE8EE7002D3467 /* Assets.xcassets */; };
@@ -52,6 +54,8 @@
 		C37605CF29D5442F0051BA18 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		C37605D229D544620051BA18 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		C37605D429D544C90051BA18 /* GeneralResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralResponse.swift; sourceTree = "<group>"; };
+		C38E7B3629DE866400155E6A /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		C38E7B3929DE874D00155E6A /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		C3B5534729CE8EE3002D3467 /* BiBaBoo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BiBaBoo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B5534A29CE8EE3002D3467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3B5534C29CE8EE3002D3467 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 		C309F87F29DD52A0007BAF98 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				C38E7B3B29DE878800155E6A /* Cell */,
+				C38E7B3829DE866700155E6A /* Model */,
 				C309F88029DD52B0007BAF98 /* View */,
 				C309F88129DD52BA007BAF98 /* Controller */,
 			);
@@ -88,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				C309F88429DD539D007BAF98 /* HomeTopBarView.swift */,
+				C38E7B3629DE866400155E6A /* CategoryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,6 +178,21 @@
 				C37605D229D544620051BA18 /* BaseViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		C38E7B3829DE866700155E6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C38E7B3929DE874D00155E6A /* CategoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C38E7B3B29DE878800155E6A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		C3B5533E29CE8EE3002D3467 = {
@@ -330,6 +352,7 @@
 				C37605BA29D2BF760051BA18 /* Image.swift in Sources */,
 				C37605D529D544C90051BA18 /* GeneralResponse.swift in Sources */,
 				C37605BC29D2BF7A0051BA18 /* Color.swift in Sources */,
+				C38E7B3A29DE874D00155E6A /* CategoryModel.swift in Sources */,
 				C309F87E29DAB285007BAF98 /* adjust+.swift in Sources */,
 				C37605D329D544620051BA18 /* BaseViewController.swift in Sources */,
 				C309F88329DD52C7007BAF98 /* HomeViewController.swift in Sources */,
@@ -339,6 +362,7 @@
 				C37605B829D2BF700051BA18 /* String.swift in Sources */,
 				C3B5534B29CE8EE3002D3467 /* AppDelegate.swift in Sources */,
 				C37605CE29D543D20051BA18 /* UIView+.swift in Sources */,
+				C38E7B3729DE866400155E6A /* CategoryView.swift in Sources */,
 				C37605D029D5442F0051BA18 /* BaseNavigationController.swift in Sources */,
 				C3B5534D29CE8EE3002D3467 /* SceneDelegate.swift in Sources */,
 			);
