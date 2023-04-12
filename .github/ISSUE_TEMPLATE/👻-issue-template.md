@@ -1,5 +1,5 @@
 ---
-name: "\U0001FA81 issue template"
+name: "👻 issue template"
 about: kite의 새로운 이슈 추가
 title: "[Feat] description"
 labels: "정연 👻"
