@@ -28,9 +28,13 @@
 		C37605D029D5442F0051BA18 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605CF29D5442F0051BA18 /* BaseNavigationController.swift */; };
 		C37605D329D544620051BA18 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605D229D544620051BA18 /* BaseViewController.swift */; };
 		C37605D529D544C90051BA18 /* GeneralResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605D429D544C90051BA18 /* GeneralResponse.swift */; };
+<<<<<<< HEAD
 		C38E7B3729DE866400155E6A /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E7B3629DE866400155E6A /* CategoryView.swift */; };
 		C38E7B3A29DE874D00155E6A /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E7B3929DE874D00155E6A /* CategoryModel.swift */; };
 		C38E7B3D29DE8EA900155E6A /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E7B3C29DE8EA900155E6A /* CategoryCollectionViewCell.swift */; };
+=======
+		C3B0BE6029E6B7DD00BF613A /* HomeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B0BE5F29E6B7DD00BF613A /* HomeRequest.swift */; };
+>>>>>>> main
 		C3B5534B29CE8EE3002D3467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B5534A29CE8EE3002D3467 /* AppDelegate.swift */; };
 		C3B5534D29CE8EE3002D3467 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B5534C29CE8EE3002D3467 /* SceneDelegate.swift */; };
 		C3B5535429CE8EE7002D3467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B5535329CE8EE7002D3467 /* Assets.xcassets */; };
@@ -55,9 +59,13 @@
 		C37605CF29D5442F0051BA18 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		C37605D229D544620051BA18 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		C37605D429D544C90051BA18 /* GeneralResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralResponse.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		C38E7B3629DE866400155E6A /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		C38E7B3929DE874D00155E6A /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		C38E7B3C29DE8EA900155E6A /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+=======
+		C3B0BE5F29E6B7DD00BF613A /* HomeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRequest.swift; sourceTree = "<group>"; };
+>>>>>>> main
 		C3B5534729CE8EE3002D3467 /* BiBaBoo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BiBaBoo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B5534A29CE8EE3002D3467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3B5534C29CE8EE3002D3467 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -169,6 +177,7 @@
 		C37605C229D2BFE50051BA18 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				C3B0BE6129E6B7E200BF613A /* Home */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -182,6 +191,7 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		C38E7B3829DE866700155E6A /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +206,14 @@
 				C38E7B3C29DE8EA900155E6A /* CategoryCollectionViewCell.swift */,
 			);
 			path = Cell;
+=======
+		C3B0BE6129E6B7E200BF613A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C3B0BE5F29E6B7DD00BF613A /* HomeRequest.swift */,
+			);
+			path = Home;
+>>>>>>> main
 			sourceTree = "<group>";
 		};
 		C3B5533E29CE8EE3002D3467 = {
@@ -217,6 +235,7 @@
 		C3B5534929CE8EE3002D3467 /* BiBaBoo-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				C3B5535829CE8EE7002D3467 /* Info.plist */,
 				C3B5535F29CE8F4E002D3467 /* Storyboard */,
 				C3B5535E29CE8F23002D3467 /* Application */,
 				C3B5536029CE8F64002D3467 /* Resource */,
@@ -251,7 +270,6 @@
 				C37605B029D2BED00051BA18 /* Fonts */,
 				C3B5535329CE8EE7002D3467 /* Assets.xcassets */,
 				C37605C929D2CBF30051BA18 /* Colors.xcassets */,
-				C3B5535829CE8EE7002D3467 /* Info.plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -361,6 +379,7 @@
 				C37605D329D544620051BA18 /* BaseViewController.swift in Sources */,
 				C309F88329DD52C7007BAF98 /* HomeViewController.swift in Sources */,
 				C37605CC29D543510051BA18 /* UIViewController+.swift in Sources */,
+				C3B0BE6029E6B7DD00BF613A /* HomeRequest.swift in Sources */,
 				C37605B629D2BF650051BA18 /* Const.swift in Sources */,
 				C37605BE29D2BF7F0051BA18 /* Font.swift in Sources */,
 				C37605B829D2BF700051BA18 /* String.swift in Sources */,
@@ -507,12 +526,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q827V73L8U;
+				DEVELOPMENT_TEAM = Z429BM88YZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BiBaBoo-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -540,7 +558,6 @@
 				INFOPLIST_FILE = "BiBaBoo-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
