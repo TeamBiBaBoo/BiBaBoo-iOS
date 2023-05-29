@@ -10,21 +10,27 @@ import UIKit
 import SnapKit
 import Then
 
-class CategoryView: UIView {
+final class CategoryView: UIView {
     
-    private let containerView: UIView = UIView()
+    private let containerView: UIView = UIView().then {
+        $0.addBottomBorder(with: .black06, andWidth: 0.5)
+    }
     
-    private var categoryCollectionView : UICollectionView = {
-        let layout = UICollectionViewFlowLayout()
-        layout.scrollDirection = .horizontal
-
-        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        collectionView.backgroundColor = .clear
-        collectionView.translatesAutoresizingMaskIntoConstraints = false
-        collectionView.isScrollEnabled = true
-        collectionView.showsHorizontalScrollIndicator = false
-        return collectionView
-    }()
+    let flowLayout = UICollectionViewFlowLayout().then {
+        $0.scrollDirection = .horizontal
+        $0.minimumLineSpacing = 0
+        $0.estimatedItemSize = CGSize(width: 46, height: 44)
+    }
+    
+    private lazy var categoryCollectionView = UICollectionView(frame: .zero, collectionViewLayout: self.flowLayout).then {
+        $0.register(CategoryCollectionViewCell.self, forCellWithReuseIdentifier: CategoryCollectionViewCell.identifier)
+        $0.backgroundColor = .clear
+        $0.translatesAutoresizingMaskIntoConstraints = false
+        $0.isScrollEnabled = true
+        $0.showsHorizontalScrollIndicator = false
+        $0.dataSource = self
+        $0.delegate = self
+    }
     
     var categoryList: [CategoryModel] = [
         CategoryModel(category: "전체"),
@@ -39,7 +45,6 @@ class CategoryView: UIView {
         super.init(frame: frame)
         style()
         setUI()
-
     }
     
     required init?(coder: NSCoder) {
@@ -51,6 +56,7 @@ class CategoryView: UIView {
     }
     
     private func setUI() {
+        
         self.addSubview(containerView)
         
         containerView.addSubview(categoryCollectionView)
@@ -62,11 +68,24 @@ class CategoryView: UIView {
         
         categoryCollectionView.snp.makeConstraints{
             $0.width.equalToSuperview()
-            $0.height.equalToSuperview()
-//            $0.bottom.equalToSuperview()
+            $0.leading.equalToSuperview().offset(15.adjusted)
+            $0.height.equalTo(44.adjusted)
         }
-        
+    }
+}
+
+extension CategoryView: UICollectionViewDelegate, UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return categoryList.count
     }
     
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CategoryCollectionViewCell.identifier, for: indexPath) as? CategoryCollectionViewCell else { return UICollectionViewCell() }
+        cell.dataBind(model: categoryList[indexPath.row])
+        return cell
+    }
     
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: 20.adjusted, height: 44.adjusted)
+    }
 }

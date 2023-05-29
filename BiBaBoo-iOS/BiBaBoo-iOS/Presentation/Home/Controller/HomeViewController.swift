@@ -13,6 +13,8 @@ import Then
 final class HomeViewController: UIViewController {
     
     let homeTopBarView = HomeTopBarView()
+    
+    let categoryView = CategoryView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,16 +27,24 @@ final class HomeViewController: UIViewController {
 extension HomeViewController {
     private func style() {
         view.backgroundColor = .white
+        navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
     private func setLayout() {
         view.addSubviews(
-        homeTopBarView
+        homeTopBarView,
+        categoryView
         )
         
         homeTopBarView.snp.makeConstraints{
             $0.top.equalToSuperview().offset(44)
             $0.width.equalToSuperview()
+        }
+        
+        categoryView.snp.makeConstraints{
+            $0.top.equalTo(homeTopBarView.snp.bottom)
+            $0.width.equalToSuperview()
+            $0.height.equalTo(44)
         }
     }
 }

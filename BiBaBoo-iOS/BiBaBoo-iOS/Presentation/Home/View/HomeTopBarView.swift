@@ -54,6 +54,11 @@ class HomeTopBarView: UIView {
         settingButton
         )
         
+        self.snp.makeConstraints{
+            $0.width.equalTo(UIScreen.main.bounds.width)
+            $0.height.equalTo(44.adjusted)
+        }
+        
         containerView.snp.makeConstraints{
             $0.width.equalToSuperview()
             $0.height.equalTo(44.adjusted)
