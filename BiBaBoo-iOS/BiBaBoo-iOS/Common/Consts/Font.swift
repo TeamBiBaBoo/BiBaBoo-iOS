@@ -18,18 +18,18 @@ extension UIFont {
     }
     
     class var title: UIFont {
-        return UIFont(name: "NanumSquareB", size: 18.0)!
+        return UIFont(name: "NanumSquareB", size: 18.0) ?? UIFont.boldSystemFont(ofSize: 18)
     }
     
     class var btn: UIFont {
-        return UIFont(name: "NanumSquareB", size: 14.0)!
+        return UIFont(name: "NanumSquareB", size: 14.0) ?? UIFont.boldSystemFont(ofSize: 14)
     }
     
     class var explain: UIFont {
-        return UIFont(name: "NanumSquareB", size: 16.0)!
+        return UIFont(name: "NanumSquareB", size: 16.0) ?? UIFont.boldSystemFont(ofSize: 16)
     }
     
     class var tabBarDefault: UIFont {
-        return UIFont(name: "NanumSquareR", size: 14.0)!
+        return UIFont(name: "NanumSquareR", size: 14.0) ?? UIFont.systemFont(ofSize: 14)
     }
 }

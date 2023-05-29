@@ -19,5 +19,11 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>NanumSquareR</string>
+		<string>NanumSquareB</string>
+		<string>Pretendard-Regular.otf</string>
+	</array>
 </dict>
 </plist>

@@ -26,6 +26,7 @@ class HomeTopBarView: UIView {
     
     private let settingButton: UIButton = UIButton().then {
         $0.setImage(Const.Image.icnSetting, for: .normal)
+        $0.contentEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
     }
 
     override init(frame: CGRect) {
@@ -61,6 +62,7 @@ class HomeTopBarView: UIView {
         stickerImageView.snp.makeConstraints{
             $0.centerY.equalToSuperview()
             $0.leading.equalTo(10.adjusted)
+            $0.width.height.equalTo(40)
         }
         
         userNameLabel.snp.makeConstraints{
