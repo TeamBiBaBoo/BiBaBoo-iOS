@@ -33,9 +33,9 @@
 		C3B5534D29CE8EE3002D3467 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B5534C29CE8EE3002D3467 /* SceneDelegate.swift */; };
 		C3B5535429CE8EE7002D3467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B5535329CE8EE7002D3467 /* Assets.xcassets */; };
 		C3B5535729CE8EE7002D3467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B5535529CE8EE7002D3467 /* LaunchScreen.storyboard */; };
-		C3C19AEE2A24A5D10005984D /* NanumSquareB.otf in Resources */ = {isa = PBXBuildFile; fileRef = C3C19AED2A24A5D10005984D /* NanumSquareB.otf */; };
-		C3C19AF02A24A5D60005984D /* NanumSquareR.otf in Resources */ = {isa = PBXBuildFile; fileRef = C3C19AEF2A24A5D60005984D /* NanumSquareR.otf */; };
 		DD462BC529F7915B0043F105 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD462BC429F7915B0043F105 /* CategoryCollectionViewCell.swift */; };
+		C3D23E582A27B25100FBC019 /* NanumSquareR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3D23E562A27B25100FBC019 /* NanumSquareR.ttf */; };
+		C3D23E592A27B25100FBC019 /* NanumSquareB.otf in Resources */ = {isa = PBXBuildFile; fileRef = C3D23E572A27B25100FBC019 /* NanumSquareB.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,8 +63,8 @@
 		C3B5535329CE8EE7002D3467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3B5535629CE8EE7002D3467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3B5535829CE8EE7002D3467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3C19AED2A24A5D10005984D /* NanumSquareB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareB.otf; sourceTree = "<group>"; };
-		C3C19AEF2A24A5D60005984D /* NanumSquareR.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareR.otf; sourceTree = "<group>"; };
+		C3D23E562A27B25100FBC019 /* NanumSquareR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareR.ttf; sourceTree = "<group>"; };
+		C3D23E572A27B25100FBC019 /* NanumSquareB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareB.otf; sourceTree = "<group>"; };
 		DD462BC429F7915B0043F105 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,8 +114,8 @@
 		C37605B029D2BED00051BA18 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				C3C19AED2A24A5D10005984D /* NanumSquareB.otf */,
-				C3C19AEF2A24A5D60005984D /* NanumSquareR.otf */,
+				C3D23E572A27B25100FBC019 /* NanumSquareB.otf */,
+				C3D23E562A27B25100FBC019 /* NanumSquareR.ttf */,
 				C37605C729D2C6E00051BA18 /* Pretendard-Regular.otf */,
 			);
 			path = Fonts;
@@ -346,10 +346,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D23E592A27B25100FBC019 /* NanumSquareB.otf in Resources */,
 				C37605C829D2C6E00051BA18 /* Pretendard-Regular.otf in Resources */,
 				C3C19AF02A24A5D60005984D /* NanumSquareR.otf in Resources */,
 				C3B5535729CE8EE7002D3467 /* LaunchScreen.storyboard in Resources */,
 				C37605CA29D2CBF30051BA18 /* Colors.xcassets in Resources */,
+				C3D23E582A27B25100FBC019 /* NanumSquareR.ttf in Resources */,
 				C3B5535429CE8EE7002D3467 /* Assets.xcassets in Resources */,
 				C3C19AEE2A24A5D10005984D /* NanumSquareB.otf in Resources */,
 			);
