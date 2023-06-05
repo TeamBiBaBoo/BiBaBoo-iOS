@@ -52,6 +52,7 @@ extension HomeViewController {
         
         homeEmptyView.snp.makeConstraints{
             $0.top.equalTo(categoryView.snp.bottom)
+            $0.height.equalToSuperview().offset(-214)
             $0.width.equalToSuperview()
         }
     }
