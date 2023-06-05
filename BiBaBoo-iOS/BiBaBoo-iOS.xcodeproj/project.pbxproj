@@ -10,6 +10,8 @@
 		C309F87E29DAB285007BAF98 /* adjust+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C309F87D29DAB285007BAF98 /* adjust+.swift */; };
 		C309F88329DD52C7007BAF98 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C309F88229DD52C7007BAF98 /* HomeViewController.swift */; };
 		C309F88529DD539D007BAF98 /* HomeTopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C309F88429DD539D007BAF98 /* HomeTopBarView.swift */; };
+		C30E36CF2A2E0855001518E0 /* HomeEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E36CE2A2E0855001518E0 /* HomeEmptyView.swift */; };
+		C30E36D12A2E08A0001518E0 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E36D02A2E08A0001518E0 /* BaseView.swift */; };
 		C37605A629D2BBCE0051BA18 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C37605A529D2BBCE0051BA18 /* SnapKit */; };
 		C37605A929D2BC1E0051BA18 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = C37605A829D2BC1E0051BA18 /* Moya */; };
 		C37605AC29D2BC470051BA18 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = C37605AB29D2BC470051BA18 /* Then */; };
@@ -42,6 +44,8 @@
 		C309F87D29DAB285007BAF98 /* adjust+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "adjust+.swift"; sourceTree = "<group>"; };
 		C309F88229DD52C7007BAF98 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C309F88429DD539D007BAF98 /* HomeTopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopBarView.swift; sourceTree = "<group>"; };
+		C30E36CE2A2E0855001518E0 /* HomeEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEmptyView.swift; sourceTree = "<group>"; };
+		C30E36D02A2E08A0001518E0 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		C37605B529D2BF650051BA18 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		C37605B729D2BF700051BA18 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		C37605B929D2BF760051BA18 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
@@ -99,6 +103,7 @@
 			children = (
 				C309F88429DD539D007BAF98 /* HomeTopBarView.swift */,
 				C38E7B3629DE866400155E6A /* CategoryView.swift */,
+				C30E36CE2A2E0855001518E0 /* HomeEmptyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 			children = (
 				C37605CF29D5442F0051BA18 /* BaseNavigationController.swift */,
 				C37605D229D544620051BA18 /* BaseViewController.swift */,
+				C30E36D02A2E08A0001518E0 /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -371,6 +377,7 @@
 				C3B0BE6029E6B7DD00BF613A /* HomeRequest.swift in Sources */,
 				C37605B629D2BF650051BA18 /* Const.swift in Sources */,
 				C37605BE29D2BF7F0051BA18 /* Font.swift in Sources */,
+				C30E36CF2A2E0855001518E0 /* HomeEmptyView.swift in Sources */,
 				C37605B829D2BF700051BA18 /* String.swift in Sources */,
 				DD462BC529F7915B0043F105 /* CategoryCollectionViewCell.swift in Sources */,
 				C3B5534B29CE8EE3002D3467 /* AppDelegate.swift in Sources */,
@@ -379,6 +386,7 @@
 				C3B5534D29CE8EE3002D3467 /* SceneDelegate.swift in Sources */,
 				C309F88529DD539D007BAF98 /* HomeTopBarView.swift in Sources */,
 				C309F88329DD52C7007BAF98 /* HomeViewController.swift in Sources */,
+				C30E36D12A2E08A0001518E0 /* BaseView.swift in Sources */,
 				C38E7B3729DE866400155E6A /* CategoryView.swift in Sources */,
 				C38E7B3A29DE874D00155E6A /* CategoryModel.swift in Sources */,
 			);
