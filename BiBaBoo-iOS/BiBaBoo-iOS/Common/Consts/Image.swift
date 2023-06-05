@@ -47,5 +47,7 @@ extension Const {
         static let addButton = UIImage(named: "btn_addList")
         static let sticker1 = UIImage(named: "sticker_1")
         
+        //MARK: Home
+        static let emptyHome = UIImage(named: "img_grey")
     }
 }
