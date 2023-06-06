@@ -35,8 +35,8 @@ extension HomeViewController {
     private func setLayout() {
         view.addSubviews(
         homeTopBarView,
-        categoryView,
-        homeEmptyView
+        homeEmptyView,
+        categoryView
         )
         
         homeTopBarView.snp.makeConstraints{

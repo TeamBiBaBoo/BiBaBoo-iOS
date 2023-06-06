@@ -30,6 +30,7 @@ extension Const {
         static let icnShopping = UIImage(named: "shopping")
         static let icnSetting = UIImage(named: "setting")
         static let icnTravel = UIImage(named: "travel")
+        static let icnCheckBox = UIImage(named: "icn_checkbox")
         
         static let homeDefault = UIImage(named: "status=default")
         static let twinkleDefault = UIImage(named: "status=default-1")
