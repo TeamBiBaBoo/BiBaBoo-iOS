@@ -17,6 +17,8 @@ final class HomeViewController: UIViewController {
     let categoryView = CategoryView()
     
     let homeEmptyView = HomeEmptyView()
+    
+    let homeView = HomeView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +38,8 @@ extension HomeViewController {
         view.addSubviews(
         homeTopBarView,
         homeEmptyView,
-        categoryView
+        categoryView,
+        homeView
         )
         
         homeTopBarView.snp.makeConstraints{
@@ -50,10 +53,16 @@ extension HomeViewController {
             $0.height.equalTo(44)
         }
         
-        homeEmptyView.snp.makeConstraints{
+        homeView.snp.makeConstraints{
             $0.top.equalTo(categoryView.snp.bottom)
             $0.height.equalToSuperview().offset(-214)
             $0.width.equalToSuperview()
         }
+        
+//        homeEmptyView.snp.makeConstraints{
+//            $0.top.equalTo(categoryView.snp.bottom)
+//            $0.height.equalToSuperview().offset(-214)
+//            $0.width.equalToSuperview()
+//        }
     }
 }

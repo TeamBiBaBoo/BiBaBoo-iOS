@@ -36,7 +36,10 @@ final class HomeTableViewCell: UITableViewCell {
         $0.text = "다음 해"
         $0.font = UIFont(name: "Pretendard-Regular", size: 12)
         $0.textColor = .black03
-        $0.layer.backgroundColor = UIColor.black08.cgColor
+    }
+    
+    private let yearView = UIView().then {
+        $0.backgroundColor = .black08
         $0.makeRounded(radius: 2)
     }
     
@@ -44,7 +47,10 @@ final class HomeTableViewCell: UITableViewCell {
         $0.text = "두 번째 조각까지"
         $0.font = UIFont(name: "Pretendard-Regular", size: 12)
         $0.textColor = .black03
-        $0.layer.backgroundColor = UIColor.black08.cgColor
+    }
+    
+    private let pieceView = UIView().then {
+        $0.backgroundColor = .black08
         $0.makeRounded(radius: 2)
     }
     
@@ -73,41 +79,57 @@ extension HomeTableViewCell {
     private func setLayout() {
         self.addSubview(contentsView)
         
-        self.snp.makeConstraints{
-            $0.height.equalTo(64.adjusted)
-            $0.leading.trailing.equalToSuperview().inset(15)
-        }
+//        self.snp.makeConstraints{
+//            $0.height.equalTo(64.adjusted)
+//            $0.leading.trailing.equalToSuperview().inset(15)
+//        }
         
         contentsView.snp.makeConstraints{
-            $0.edges.equalToSuperview()
+            $0.height.equalTo(64.adjusted)
+            $0.leading.trailing.equalToSuperview().inset(15)
+            $0.top.equalToSuperview()
         }
         
-
         contentsView.addSubviews(
         checkButton,
         titleLabel,
-        yearLabel,
-        pieceLabel,
+        yearView,
+        pieceView,
         categoryImageView)
         
+        yearView.addSubviews(yearLabel)
+        pieceView.addSubviews(pieceLabel)
+        
         checkButton.snp.makeConstraints{
+            $0.width.height.equalTo(16)
             $0.centerY.equalToSuperview()
             $0.leading.equalToSuperview().offset(20)
         }
         
         titleLabel.snp.makeConstraints{
             $0.top.equalToSuperview().offset(12)
-            $0.leading.equalTo(checkButton.snp.trailing).offset(-15)
+            $0.leading.equalTo(checkButton.snp.trailing).offset(15)
+            $0.height.equalTo(20)
         }
         
-        yearLabel.snp.makeConstraints{
+        yearView.snp.makeConstraints{
             $0.top.equalTo(titleLabel.snp.bottom).offset(2)
             $0.leading.equalTo(titleLabel)
         }
+                
+        yearLabel.snp.makeConstraints{
+            $0.top.bottom.equalToSuperview().inset(2)
+            $0.leading.trailing.equalToSuperview().inset(4)
+        }
+        
+        pieceView.snp.makeConstraints{
+            $0.top.equalTo(yearView)
+            $0.leading.equalTo(yearView.snp.trailing).offset(2)
+        }
         
         pieceLabel.snp.makeConstraints{
-            $0.top.equalTo(yearLabel)
-            $0.leading.equalTo(yearLabel.snp.trailing).offset(-2)
+            $0.top.bottom.equalToSuperview().inset(2)
+            $0.leading.trailing.equalToSuperview().inset(4)
         }
         
         categoryImageView.snp.makeConstraints{
