@@ -26,8 +26,9 @@ class CategoryCollectionViewCell: UICollectionViewCell {
         
         $0.layer.cornerRadius = 15
         $0.layer.masksToBounds = true
-//        $0.clipsToBounds = true
+        $0.clipsToBounds = true
         $0.layer.layoutIfNeeded()
+//        $0.makeRounded(radius: 20)
         $0.translatesAutoresizingMaskIntoConstraints = false
         
         $0.backgroundColor = .clear

@@ -29,6 +29,7 @@
 		C37605D029D5442F0051BA18 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605CF29D5442F0051BA18 /* BaseNavigationController.swift */; };
 		C37605D329D544620051BA18 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605D229D544620051BA18 /* BaseViewController.swift */; };
 		C37605D529D544C90051BA18 /* GeneralResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37605D429D544C90051BA18 /* GeneralResponse.swift */; };
+		C37964802A30467400E7F5DF /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C379647F2A30467300E7F5DF /* Pretendard-SemiBold.otf */; };
 		C38E7B3729DE866400155E6A /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E7B3629DE866400155E6A /* CategoryView.swift */; };
 		C38E7B3A29DE874D00155E6A /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E7B3929DE874D00155E6A /* CategoryModel.swift */; };
 		C3B0BE6029E6B7DD00BF613A /* HomeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B0BE5F29E6B7DD00BF613A /* HomeRequest.swift */; };
@@ -60,6 +61,7 @@
 		C37605CF29D5442F0051BA18 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		C37605D229D544620051BA18 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		C37605D429D544C90051BA18 /* GeneralResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralResponse.swift; sourceTree = "<group>"; };
+		C379647F2A30467300E7F5DF /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
 		C38E7B3629DE866400155E6A /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		C38E7B3929DE874D00155E6A /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		C3B0BE5F29E6B7DD00BF613A /* HomeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRequest.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				C3D23E572A27B25100FBC019 /* NanumSquareB.otf */,
 				C3DC33322A288CA000282BDE /* NanumSquareR.otf */,
 				C37605C729D2C6E00051BA18 /* Pretendard-Regular.otf */,
+				C379647F2A30467300E7F5DF /* Pretendard-SemiBold.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 			files = (
 				C3D23E592A27B25100FBC019 /* NanumSquareB.otf in Resources */,
 				C3DC33332A288CA000282BDE /* NanumSquareR.otf in Resources */,
+				C37964802A30467400E7F5DF /* Pretendard-SemiBold.otf in Resources */,
 				C37605C829D2C6E00051BA18 /* Pretendard-Regular.otf in Resources */,
 				C3B5535729CE8EE7002D3467 /* LaunchScreen.storyboard in Resources */,
 				C37605CA29D2CBF30051BA18 /* Colors.xcassets in Resources */,
