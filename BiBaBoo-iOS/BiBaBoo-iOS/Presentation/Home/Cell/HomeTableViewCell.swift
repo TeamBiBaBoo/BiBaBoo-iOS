@@ -16,6 +16,7 @@ final class HomeTableViewCell: UITableViewCell {
     
     private let contentsView = UIView().then {
         $0.backgroundColor = .white
+        $0.layer.shadowColor = UIColor.black.cgColor
         $0.layer.shadowOpacity = 1
         $0.layer.shadowRadius = 4
         $0.layer.shadowOffset = CGSize(width: 0, height: 2)
@@ -77,12 +78,8 @@ extension HomeTableViewCell {
     }
     
     private func setLayout() {
-        self.addSubview(contentsView)
         
-//        self.snp.makeConstraints{
-//            $0.height.equalTo(64.adjusted)
-//            $0.leading.trailing.equalToSuperview().inset(15)
-//        }
+        self.addSubview(contentsView)
         
         contentsView.snp.makeConstraints{
             $0.height.equalTo(64.adjusted)
